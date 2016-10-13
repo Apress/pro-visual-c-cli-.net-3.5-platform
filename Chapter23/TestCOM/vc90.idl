@@ -1,0 +1,30 @@
+import "docobj.idl";
+
+[
+	uuid(F0FD23AE-CAC9-3485-95DC-E5B53A6FB09F),
+	dual
+] 
+#line 13 "c:\\users\\administrator\\documents\\visual studio 2008\\projects\\chapter23\\testcom\\testcom.cpp"
+interface ITestCOM : IDispatch {
+#line 15 "c:\\users\\administrator\\documents\\visual studio 2008\\projects\\chapter23\\testcom\\testcom.cpp"
+	[id(1)] HRESULT  Square([in] LONG Value, [out,retval] LONG *Result);
+};
+
+
+[ version(1.0), uuid(23db553b-27e4-3e6c-9661-645501e82507) ]
+library TestCOM
+{
+	importlib("stdole2.tlb");
+	importlib("olepro32.dll");
+
+	[
+		uuid(876C33E0-4A52-3769-A61A-5E01E4B82579),
+		version(1.0)
+	] 
+#line 20 "c:\\users\\administrator\\documents\\visual studio 2008\\projects\\chapter23\\testcom\\testcom.cpp"
+	coclass CTestCOM {
+		interface ITestCOM;
+	};
+
+}
+

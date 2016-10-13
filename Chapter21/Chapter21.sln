@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PrincipalIdentity", "PrincipalIdentity\PrincipalIdentity.vcproj", "{B02E94D0-0650-458D-81F6-D3F4492F88D8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RoleBasedSecurity", "RoleBasedSecurity\RoleBasedSecurity.vcproj", "{3CD82D49-795F-45C0-9608-A21076F5E6B3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SetSecurity", "SetSecurity\SetSecurity.vcproj", "{519D280F-A96D-4E76-A2A7-102C243E443E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RemoveSecurity", "RemoveSecurity\RemoveSecurity.vcproj", "{8ECFFF45-3212-44AA-9757-324812677AEF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CASSecurity", "CASSecurity\CASSecurity.vcproj", "{74477BF5-FB64-4836-9177-63B4EC62870C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AssertDenyPermit", "AssertDenyPermit\AssertDenyPermit.vcproj", "{221E2F46-8988-4C61-A106-A09B95053C83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B02E94D0-0650-458D-81F6-D3F4492F88D8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B02E94D0-0650-458D-81F6-D3F4492F88D8}.Debug|Win32.Build.0 = Debug|Win32
+		{B02E94D0-0650-458D-81F6-D3F4492F88D8}.Release|Win32.ActiveCfg = Release|Win32
+		{B02E94D0-0650-458D-81F6-D3F4492F88D8}.Release|Win32.Build.0 = Release|Win32
+		{3CD82D49-795F-45C0-9608-A21076F5E6B3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3CD82D49-795F-45C0-9608-A21076F5E6B3}.Debug|Win32.Build.0 = Debug|Win32
+		{3CD82D49-795F-45C0-9608-A21076F5E6B3}.Release|Win32.ActiveCfg = Release|Win32
+		{3CD82D49-795F-45C0-9608-A21076F5E6B3}.Release|Win32.Build.0 = Release|Win32
+		{519D280F-A96D-4E76-A2A7-102C243E443E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{519D280F-A96D-4E76-A2A7-102C243E443E}.Debug|Win32.Build.0 = Debug|Win32
+		{519D280F-A96D-4E76-A2A7-102C243E443E}.Release|Win32.ActiveCfg = Release|Win32
+		{519D280F-A96D-4E76-A2A7-102C243E443E}.Release|Win32.Build.0 = Release|Win32
+		{8ECFFF45-3212-44AA-9757-324812677AEF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8ECFFF45-3212-44AA-9757-324812677AEF}.Debug|Win32.Build.0 = Debug|Win32
+		{8ECFFF45-3212-44AA-9757-324812677AEF}.Release|Win32.ActiveCfg = Release|Win32
+		{8ECFFF45-3212-44AA-9757-324812677AEF}.Release|Win32.Build.0 = Release|Win32
+		{74477BF5-FB64-4836-9177-63B4EC62870C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{74477BF5-FB64-4836-9177-63B4EC62870C}.Debug|Win32.Build.0 = Debug|Win32
+		{74477BF5-FB64-4836-9177-63B4EC62870C}.Release|Win32.ActiveCfg = Release|Win32
+		{74477BF5-FB64-4836-9177-63B4EC62870C}.Release|Win32.Build.0 = Release|Win32
+		{221E2F46-8988-4C61-A106-A09B95053C83}.Debug|Win32.ActiveCfg = Debug|Win32
+		{221E2F46-8988-4C61-A106-A09B95053C83}.Debug|Win32.Build.0 = Debug|Win32
+		{221E2F46-8988-4C61-A106-A09B95053C83}.Release|Win32.ActiveCfg = Release|Win32
+		{221E2F46-8988-4C61-A106-A09B95053C83}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

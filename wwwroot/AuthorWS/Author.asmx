@@ -1,0 +1,2 @@
+<%@ WebService Class="Author.AuthorClass" %>
+

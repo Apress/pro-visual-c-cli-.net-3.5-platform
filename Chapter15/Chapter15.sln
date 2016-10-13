@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Simple", "Simple\Simple.vcproj", "{31EA0343-FF8E-411F-AE48-9228396F7724}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleCtrl", "SimpleCtrl\SimpleCtrl.vcproj", "{30CE0FF3-A45B-4FB9-B8BE-15F2CA2DAC9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31EA0343-FF8E-411F-AE48-9228396F7724}.Debug|Win32.ActiveCfg = Debug|Win32
+		{31EA0343-FF8E-411F-AE48-9228396F7724}.Debug|Win32.Build.0 = Debug|Win32
+		{31EA0343-FF8E-411F-AE48-9228396F7724}.Release|Win32.ActiveCfg = Release|Win32
+		{31EA0343-FF8E-411F-AE48-9228396F7724}.Release|Win32.Build.0 = Release|Win32
+		{30CE0FF3-A45B-4FB9-B8BE-15F2CA2DAC9C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{30CE0FF3-A45B-4FB9-B8BE-15F2CA2DAC9C}.Debug|Win32.Build.0 = Debug|Win32
+		{30CE0FF3-A45B-4FB9-B8BE-15F2CA2DAC9C}.Release|Win32.ActiveCfg = Release|Win32
+		{30CE0FF3-A45B-4FB9-B8BE-15F2CA2DAC9C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
